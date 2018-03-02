@@ -1,0 +1,108 @@
+---
+fr:
+  signup:             Inscription
+  createmyaccount:    Créez mon compte
+  accountactivated:   Compte activé.
+  accountdeactivated: Compte désactivé.
+  invalidlink:        Lien d'activation invalide
+  edituser:           Editer un utilisateur
+  edit:               Editer
+  change:             Modifier
+  create:             Créer
+  new:                Nouveau
+  adduser:            Nouvel utilisateur
+  userprofile:        Profil de l'utilisateur
+  udpdateyourprofile: Modifiez votre profil
+  notactivated:       "Compte non activé. " 
+  checkemail:         Veuillez vérifier votre e-mail pour activer votre compte.
+  accounttype:        Type de compte
+  googleaccount:      Compte Google
+  required:           Requis
+  
+  password:           Mot de passe
+  confirm:            Confirmation du mot de passe
+  emailsent:          Les instructions de réinitialisation du mot de passe ont été envoyées par email.
+  emailnotfound:      Adresse email non trouvée.
+  pwdempty:           Le mot de passe ne peut pas être vide.
+  pwdreset:           Le mot de passe a été réinitialisé.
+  pwdresetexpired:    La réinitialisation du mot de passe a expiré.
+  
+  invalidlogin:       Adresse email et/ou mot de passe invalide
+  profileupdated:     Profil modifié
+  userdeleted:        Utilisateur effacé
+  pleaselogin:        Veuillez vous connecter.
+  
+  allusers:           Tous les utilisateurs
+  name:               Nom
+  email:              Adresse email
+  role:               Role
+  admin:              Administrateur
+  user:               Utilisateur
+  delete:             Effacer
+  activate:           Activer
+  deactivate:         Désactiver
+  activated:          Activé
+  language:           Langue
+  
+  familyname:         Nom
+  givenname:          Prénom
+  created_at:         Créé le
+  updated_at:         Mis à jour le
+  discipline:         Discipline
+  type:               Type
+  organization:       Organisation
+  
+  helpers:
+    label:
+      user:
+        name: Nom
+        familyname:         Nom
+        givenname:          Prénom
+        email: Adresse email
+        password: Mot de passe
+        password_confirmation: Confirmation
+  
+  will_paginate:
+    previous_label: "Précédent"
+    next_label: "Suivant"
+
+  simple_form:
+    "yes": 'Oui'
+    "no": 'Non'
+    required:
+      text: 'requis'
+      mark: '*'
+    labels:
+      user:
+        name:                   'Nom'
+        familyname:             'Nom'
+        givenname:              'Prénom'
+        password:               'Mot de passe'
+        password_confirmation:  'Confirmation'
+        email:                  'Adresse email'
+    hints:
+      user:
+    placeholders:
+      user:
+        name: 'Votre nom'
+        password: '*****'
+        password_confirmation: '*****'
+
+  activerecord:
+    errors:
+      attributes:
+        name: "Nom"
+        email: "Adresse"
+        
+  activerecord:
+    models:
+      user: 
+        one: Utilisateur
+        other: Utilisateurs
+    attributes:
+      user:
+        name:     'Nom'
+        title:    'Titre'
+        email:    'Adresse email'
+        password: 'Mot de passe'
+        

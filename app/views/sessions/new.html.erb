@@ -3,6 +3,7 @@
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
+    
     <%= form_for(:session, url: login_path) do |f| %>
 
       <%= f.label :email %>
@@ -18,7 +19,11 @@
       <% end %>
 
       <%= f.submit "Log in", class: "btn btn-primary" %>
+      <small><%= "Users with a Gmail address will be redirected to Google authentification." %></small>
     <% end %>
+    
+    <br>
+    <a href="<%= google_path %>" class="google btn btn-danger btn-block"> <span></span><%= "Log in with your Google account" %></a>
 
     <p>New user? <%= link_to "Sign up now!", signup_path %></p>
   </div>

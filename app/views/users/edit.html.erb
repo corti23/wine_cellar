@@ -5,8 +5,14 @@
   <div class="col-md-6 col-md-offset-3">
     <%= render 'form' %>
     <div class="gravatar_edit">
-      <%= gravatar_for @user %>
-      <a href="http://gravatar.com/emails" target="_blank">Change</a>
+      
+       <% if @user.googleaccount? %>
+           <img src="<%= @user.googleimage %>", height="80", width="80">
+        <% else %>
+           <%= gravatar_for @user %>
+           <a href="http://gravatar.com/emails" target="_blank">Change</a>
+        <% end %>
+        
     </div>
   </div>
 </div>

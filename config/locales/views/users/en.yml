@@ -1,0 +1,67 @@
+---
+en:
+  signup:             Sign up
+  createmyaccount:    Create my account
+  accountactivated:   Account activated.
+  accountdeactivated: Account deactivated.
+  invalidlink:        Invalid activation link
+  userprofile:        User profile
+  edituser:           Edit user
+  change:             Change
+  create:             Create
+  new:                New
+  adduser:            New User
+  udpdateyourprofile: Update your profile
+  notactivated:       "Account not activated. "
+  checkemail:         Please check your email to activate your account.
+  accounttype:        Account Type
+  googleaccount:      Google account
+  
+  password:           Password
+  confirm:            Confirm password
+  emailsent:          Email sent with password reset instructions.
+  emailnotfound:      Email address not found.
+  pwdempty:           Password can't be empty.
+  pwdreset:           Password has been reset.
+  pwdresetexpired:    Password reset has expired.
+  
+  invalidlogin:       Invalid email/password combination
+  profileupdated:     Profile Updated
+  userdeleted:        User deleted
+  pleaselogin:        Please log in.
+  
+  allusers:           All users
+  name:               Name
+  email:              Email
+  
+  givenname:          First Name
+  familyname:         Last Name
+  created_at:         Created at
+  updated_at:         Updated at
+  discipline:         Discipline
+  type:               Type
+  organization:       Organization
+  
+  simple_form:
+    "yes": 'Yes'
+    "no": 'No'
+    required:
+      text: 'required'
+      mark: '*'
+    labels:
+      user:
+        name:                   'Name'
+        givenname:          First Name
+        familyname:         Last Name
+        password:               'Password'
+        password_confirmation:  'Confirmation'
+        email:                  'Email'
+        edit:
+          password: 'Change password'
+    hints:
+      user:
+    placeholders:
+      user:
+        name: 'Your name'
+        password: '*****'
+        password_confirmation: '*****'

@@ -1,0 +1,37 @@
+---
+en:
+
+  allclients:   Clients Listing
+  newclient:    New client
+  
+  simple_form:
+    "yes": 'Yes'
+    "no": 'No'
+    required:
+      text: 'required'
+      mark: '*'
+    labels:
+      client:
+        name:     Name
+        code:     Code
+      address:
+        line1:    Address
+        line2:    Address
+        city:     City
+        state:    State / Province
+        zip:      Zip code
+        country:  Country
+    hints:
+      client:
+    placeholders:
+      client:
+        name:     Name
+        code:     XXX
+      address:
+        line1:    first line
+        line2:    second line
+        city:     City
+        state:    State / Province
+        zip:      Zip code
+        country:  Country
+        

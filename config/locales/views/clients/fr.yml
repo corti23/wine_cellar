@@ -1,0 +1,55 @@
+---
+fr:
+
+  allclients:   Tous les clients
+  newclient:    Nouveau client
+
+  simple_form:
+    "yes": 'Oui'
+    "no": 'Non'
+    required:
+      text: 'requis'
+      mark: '*'
+    labels:
+      client:
+        name:     Nom
+        code:     Code
+      address:
+        line1:    Adresse
+        line2:    Adresse
+        city:     Ville
+        state:    Etat / Province / Région
+        zip:      Code postal
+        country:  Pays
+
+    hints:
+      client:
+    placeholders:
+      client:
+        name:     Nom du client
+        code:     XXX
+      address:
+        line1:    première ligne
+        line2:    deuxième ligne
+        city:     Ville
+        state:    Etat / Province / Région
+        zip:      Code postal
+        country:  Pays
+
+
+  activerecord:
+    errors:
+      attributes:
+        name: "Nom"
+
+        
+  activerecord:
+    models:
+      client: 
+        one: Client
+        other: Clients
+    attributes:
+      client:
+        name:     'Nom'
+
+        
