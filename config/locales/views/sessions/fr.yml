@@ -23,7 +23,7 @@ fr:
   forgotpassword:   (Mot de passe oublié)
   remember_me:      Rester connecté sur cet ordinateur
   newuser:          Nouvel utilisateur ?
-  loginwithgoogle:  Connectez-vous avec votre compte Google
+  loginwithgoogle:  Connectez-vous avec Google
   or: Ou
   googleredirect:   Les utilisateurs ayant une adresse email Gmail seront redirigés vers le système d'identification de Google.
   helpers:

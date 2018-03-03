@@ -23,5 +23,5 @@ en:
   forgotpassword:   (Forgot password)
   remember_me:      Remember me on this computer
   newuser:          New user?
-  loginwithgoogle:  Log in with your Google account
+  loginwithgoogle:  Sign in with Google
   googleredirect:   Users with a Gmail address will be redirected to Google authentification.
