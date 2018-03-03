@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 fr:
-  forgotpassword:   Mot de passe oublié
+  forgotpassword:   (Mot de passe oublié)
   remember_me:      Rester connecté sur cet ordinateur
   newuser:          Nouvel utilisateur ?
   loginwithgoogle:  Connectez-vous avec votre compte Google
