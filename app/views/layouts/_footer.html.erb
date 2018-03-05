@@ -3,6 +3,12 @@
     <ul>
       <li><%= link_to t(:about),   about_path %></li>
       <li><%= link_to t(:contact), contact_path %></li>
+      
+      <% if I18n.locale == :en %>
+        <li><%= link_to "Français", locale_path(:locale => 'fr') %></li>
+      <% else %>
+        <li><%= link_to "English", locale_path(:locale => 'en') %></li>
+      <% end %>
     </ul>
   </nav>
 </footer>
