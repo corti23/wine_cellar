@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  producer: MyText
+  appellation: MyText
+  origin: MyText
+  format: 1
+  vintage: 1
+  number: 1
+  colour: 1
+  grape: MyText
+  dateofpurchase: 2018-03-05
+  user: one
+
+two:
+  producer: MyText
+  appellation: MyText
+  origin: MyText
+  format: 1
+  vintage: 1
+  number: 1
+  colour: 1
+  grape: MyText
+  dateofpurchase: 2018-03-05
+  user: two
