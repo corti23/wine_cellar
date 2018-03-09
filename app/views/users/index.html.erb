@@ -1,10 +1,17 @@
 <% provide(:title, t(:allusers)) %>
 <h1><%=t :allusers %></h1>
 
-<%= will_paginate %>
-
-<ul class="users">
-  <%= render @users %>
-</ul>
-
-<%= will_paginate %>
+<table id="users-table", class="display responsive no-wrap",
+                         data-source="<%= users_path(format: :json) %>">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Created at</th>
+      <th>updated_at at</th>
+      <th colspan="4"></th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
