@@ -12,7 +12,7 @@ class UsersController < ApplicationController
   def index
     #@users = User.paginate(page: params[:page])
     respond_to do |format|
-      format.html { @users = User.paginate(page: params[:page]) }
+      format.html 
       format.json { render json: UserDatatable.new(view_context) }
     end
   end

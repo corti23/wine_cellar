@@ -28,7 +28,7 @@ $(document).ready( function() {
 
 function getLanguage(locale) {
 	var lang = {
-    "decimal":        "",
+		"decimal":        "",
     "emptyTable":     "No data available in table",
     "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
     "infoEmpty":      "Showing 0 to 0 of 0 entries",
@@ -49,23 +49,16 @@ function getLanguage(locale) {
     "aria": {
         "sortAscending":  ": activate to sort column ascending",
         "sortDescending": ": activate to sort column descending"
-    },
-		"select": {
-				"rows": {
-					_: "Selected %d rows",
-					0: "Click a row to select it",
-					1: "Selected 1 row"
-				}
     }
-	};
+  }
 
 	if(locale=='fr') {
-			lang = {
+		lang = {
 			"sProcessing":     "Traitement en cours...",
 			"sSearch":         "Rechercher&nbsp;:",
 			"sLengthMenu":     "Afficher _MENU_ &eacute;l&eacute;ments",
 			"sInfo":           "Affichage de l'&eacute;l&eacute;ment _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
-			"sInfoEmpty":      "Affichage de l'&eacute;l&eacute;ment 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
+			"sInfoEmpty":      "Affichage de l'&eacute;l&eacute;ment 0 &agrave; 0 sur 0 &eacute;l&eacute;ment",
 			"sInfoFiltered":   "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
 			"sInfoPostFix":    "",
 			"sLoadingRecords": "Chargement en cours...",
@@ -80,15 +73,8 @@ function getLanguage(locale) {
 			"oAria": {
 					"sSortAscending":  ": activer pour trier la colonne par ordre croissant",
 					"sSortDescending": ": activer pour trier la colonne par ordre d&eacute;croissant"
-			},
-			"select": {
-					"rows": {
-						_: "%d lignes selectionées",
-						0: "",
-						1: "1 ligne selectionnée"
-					}
 			}
-		};
-	}
+		}
+  }
 	return lang;
 }
